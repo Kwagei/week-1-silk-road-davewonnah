@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(/images/istockphoto-1396866987-1024x1024\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    height: 100vh;
+    width: 100%; 
+      
+}
+
+.header-container{
+    display: flex;
+    opacity: 80%;
+    background-color: #181818; 
+    
+    
+    
+}
+
+.logo-container{
+    display: flex;
+    width: 100%;
+    height: 150px;
+}
+ .logo{
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+} 
+.logo h1{
+    color: #fff;
+    margin: 20px;
+}
+.other{
+    width: 100%;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.other a{
+    text-decoration: none;
+    padding-bottom: 20px;  
+}
+.one{
+    margin-top: 20px;
+    color: #fff;
+    padding-left: 50rem;
+}
+.two{
+    margin-left: 30px;
+    color: #fff;
+}
+.three{
+    margin-left: 10px;
+    color: #fff;
+}
+.five{
+    color: aqua;
+}
+hr{
+    margin-top: 10px;
+}
+.other button{
+    float: right;
+    margin-right: 1px;
+    width: 140px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: rgb(252, 248, 248);
+    color: #fff;
+    background-color: blue;
+}
+.sign{
+    /* background-color: yellow; */
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.sign p{
+    margin-top: 20px;
+    color: #fff;
+}
+.sign i{
+    color: #fff;
+    margin-top: 22px;
+}
+.body-container{
+    display: flex;
+    flex-direction: column;
+    /* background-color: pink; */
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+ 
+
+.logo-2{
+    display: flex;
+    position: fixed;
+    /* flex-direction: column; */
+    background-color: #212121;
+    opacity: 80%;
+    width: 60%;
+    padding: 2rem;
+    height: 250px;
+}
+
+.logo-2 h2{
+    color: #fff;
+    margin-top: 50px;
+}
+.logo-2 p{
+    color: #fff;
+    margin-top: 20px;
+}
+.logo-2 button{
+    width: 40%;
+    height: 32px;
+    margin-top: 20px;
+    color: #fff;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 2px solid rgb(221,220, 220);
+}
+.logo-4{
+    position: relative;
+    display: block;
+    flex-direction: column;
+    height: 26rem;
+    width: 28%;
+    background-color: #fff;
+    margin-left: 24.5rem;
+    
+}
+.logo-4 h2{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.logo-4 input{
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 70%;
+    height: 24px;
+}
+.logo-4 p{
+    margin-top: 20px;
+    margin-left: 220px;
+    color: aqua;
+}
+.logo-4 button{
+    margin-top: 20px;
+    margin-left: 180px;
+    width: 40%;
+    height: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(129, 115, 115);
+    border-radius: 4px;
+    border: #fff;
+}
+.logo-4 h4{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.logo-4 i{
+    cursor: pointer;
+}
